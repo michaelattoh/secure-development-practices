@@ -1,15 +1,17 @@
 # Secure Development Practices
 
-This repository demonstrates best practices for integrating security into software development.  
-It includes examples of secure login implementation, environment variable management, and input validation for web applications.
+This repository demonstrates how security can be integrated into software development, covering web and application security best practices.
 
-## Topics Covered
+## Key Topics
 - Secure password storage (hashing & salting)
-- Preventing SQL injection and XSS
+- Input validation and output encoding to prevent XSS/SQL Injection
+- Session management best practices
+- Secure API usage
 - Environment variable management
-- Session security
-- API security basics
 
-## Stack
-Languages: PHP, Python  
-Tools: OWASP ZAP, Burp Suite, GitHub Actions (for code security scans)
+## Example Files
+- `secure_login_demo.php` – Secure login implementation using prepared statements.
+- `env_config_example.py` – Handling sensitive environment variables securely.
+
+## Purpose
+To showcase practical examples of how developers can implement secure coding techniques and integrate cybersecurity into everyday development workflows.
